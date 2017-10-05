@@ -1,15 +1,43 @@
-#putaclic{
-  text-align: center;
-  padding-top: 2%;
-  padding-bottom: 2%;
+/*Body*/
+body{text-align: center;}
+a{
+  text-decoration: none;
+  color : lightblue;
+  font-style: italic;
+}
+a:hover{color:orange; font-style: normal;}
+h2{
+  font-family: monospace;
+  letter-spacing: 0.4em;
+  color: rgba(0, 0, 0, 0.6);
+}
+p{font-family: sans-serif;}
+/*présentation*/
+.insert{
+  float: left;
+  height:109px;
+  width:30px;
+  background-color: red;
+}
+.presentation{
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.presentation>p{padding-left: 20%;}
+/*Premiere section -> votre Réussite...*/
+#clickBait{
+  letter-spacing: 0.1em;
+  color:rgba(255, 255, 255, 0.8);
+  padding-top: 1%;
+  padding-bottom: 1%;
   width: 100%;
   background-color: #9DA9A8;
+  border-top: 1px solid #666;
 }
-.header{
-  height: 20px;
-  width: 100%;
-  background-color: #000;
-}
+/*Première section -> première fenêtre -> conteneur*/
 .container-img{
   display: inline-block;
   text-align: center;
@@ -18,17 +46,35 @@
   border-radius: 5px;
   width: 15%;
 }
+/*Première section -> première fenêtre -> contenu*/
 .container-img>i{
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 2%;
+  color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5%;
   border-radius: 10px;
   border-bottom: 2px solid #666;
+  border-top: 1px solid #fff;
 }
+.container-img>p{color: rgba(0, 0, 0, 0.6);}
+/*Deuxième section -> Exercez vous*/
 #preview{
-  padding-top: 2%;
-  text-align: center;
+  padding-top: 1%;;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
+.button{
+  padding: 1%;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #fff;
+  background: -moz-linear-gradient(#ccc, #aaa);
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+#preview>a:hover{
+  color: ;
+  font-style: italic;
+  border: 1px solid #f6d464;
 .description{
-  text-align: center;
   font-size: 12px;
 }
