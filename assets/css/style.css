@@ -1,3 +1,4 @@
+/*HEADER*/
 .topnav {
     background-color: #373E3D;
     overflow: hidden;
@@ -26,7 +27,7 @@
 .nav-right{
   float: right;
 }
-/*Body*/
+/*CONTENT*/
 body{
   text-align: center;
   margin: 0px;
@@ -36,7 +37,7 @@ a{
   color : lightblue;
   font-style: italic;
 }
-a:hover{color:orange; font-style: normal;}
+a:hover{color:red; font-style: normal;}
 h2{
   font-family: monospace;
   letter-spacing: 0.4em;
@@ -57,7 +58,7 @@ p{font-family: sans-serif;}
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
-.presentation>p{padding-left: 20%;}
+.presentation>p{padding-left: 23%;}
 /*Premiere section -> votre Réussite...*/
 #clickBait{
   letter-spacing: 0.1em;
@@ -103,9 +104,20 @@ p{font-family: sans-serif;}
   border-radius: 5px;
 }
 #preview>a:hover{
-  color: ;
+  color: red;
   font-style: italic;
-  border: 1px solid #f6d464;
+}
 .description{
   font-size: 12px;
+}
+/*FOOTER*/
+#Bottomdiv {
+  background-color: #111;
+  width: 100%;
+  margin-top: 8%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#Bottomdiv>ul {
+  list-style-type: none;
 }

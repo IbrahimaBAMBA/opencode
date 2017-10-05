@@ -16,7 +16,7 @@
       <p>OpenCode est un site dédié à l'apprentissage <b>intensif</b> de differents langages de programmation web.<br/>
         Les exercices sont conçus et mis à disposition par les élèves de la <b>grande</b> et <b>préstigieuse</b> école E2N,<br/>
         <a href="https://www.grandeecolenumerique.fr/">labéllisées Grande Ecole du Numérique</a>
-        Et chaque étape franchie vous rapproche un peu plus du monde</br> professionnel, et ce, en à peine une heure!</p>
+        Et chaque étape franchie vous rapproche un peu plus du monde<br/> professionnel, et ce, en à peine une heure!</p>
     </div>
     <h2>Votre réussite Rapidement</h2>
     <!-- Section putaclic -->
