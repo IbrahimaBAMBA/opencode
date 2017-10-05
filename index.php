@@ -24,7 +24,7 @@
         <!--Premiere fenetre-->
         <div class="container-img" id="left">
           <i class="fa fa-handshake-o fa-5x" aria-hidden="true"></i>
-          <p>Emploi garantie en seulement une heure d'apprentissage !<br/>Voir moins.</p>
+          <p>Emploi garantie en seulement une heure d'apprentissage !</p>
         </div>
         <!--Deuxieme fenetre-->
         <div class="container-img margin-left" id="right">
